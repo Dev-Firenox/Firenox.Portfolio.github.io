@@ -1,0 +1,13 @@
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+body { background: linear-gradient(135deg, #0f0f0f, #1a1a1a); color: white; line-height: 1.6; }
+.header { display: flex; justify-content: space-between; padding: 20px 40px; background: rgba(20,20,20,0.8); position: sticky; top: 0; backdrop-filter: blur(10px); }
+.header .logo { font-size: 1.5rem; font-weight: bold; color: #ff009d; }
+.header nav a { color: white; margin: 0 15px; text-decoration: none; }
+.hero { height: 90vh; display: flex; flex-direction: column; justify-content: center; text-align: center; }
+.hero h1 span { color: #ff009d; font-size: 3rem; }
+.btn { margin-top: 15px; padding: 10px 20px; background: #ff009d; color: white; text-decoration: none; border-radius: 4px; }
+.section { padding: 50px 20px; text-align: center; }
+.skills { display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; margin-top: 20px; }
+.skill, .project-card { background: rgba(30,30,30,0.8); padding: 20px; border-radius: 10px; width: 250px; }
+footer { text-align: center; padding: 20px; background: #111; }
